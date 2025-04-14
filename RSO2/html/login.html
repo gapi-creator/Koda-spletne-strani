@@ -1,0 +1,32 @@
+
+
+
+            <html>
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="../css/oblika_login.css">
+            </head>
+            <body>
+
+            <header style="background-color: #67a4ff;font-family: Candara; text-align: center;padding-top: 50px;padding-bottom: 50px;">
+                <img style="position: absolute;left: 20%;" src="../slike/logo_drustvo_svetli.png" height="120px">
+                <p>Strelsko Društvo Gorjanci</p>
+                <br><br>
+            </header>
+
+            <form class="form" action="../php/prijava.php" method="post"> <!-- Povezava na 'prijava.php', pošlje podatke email in geslo -->
+                <div class="container">
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Vnesite email" name="email" required>
+
+                    <label for="geslo"><b>Geslo</b></label>
+                    <input type="password" placeholder="Vnesite geslo" name="geslo" required>
+
+                    <button class="login_html" type="submit">Prijava</button>
+                </div>
+            </form>
+
+            </body>
+            </html>
+

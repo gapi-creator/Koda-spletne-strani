@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+form {border: 3px solid #f1f1f1;}
+
+/*header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    background-color: rgb(255, 255, 255);
+    padding: 70px 70px 50px 70px;
+    
+}*/
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 30px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3bc0e6;
+  color: rgb(136, 49, 49);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+header p {
+  color: white;
+  font-variant: small-caps;
+  font-size: 30px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+form.form {
+  font-family: Arial, Helvetica, sans-serif; 
+  margin-top: 40px;
+}
+
+button.login_html {
+  background-color: #2b5fad;
+  font-family: Candara; font-size: 20px;
+  margin-top: 40px; color: aliceblue;
+}

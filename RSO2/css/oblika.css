@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* ---------------------- header ----------------------*/
+
+
+
+    header .zgornji {
+        background-color: #a3b646;
+        height: 80px;
+    }
+    header .zgornji2 {
+        background-color: #709dd6;
+        height: 60px;
+        text-align: center;
+        padding: 80px 0px 80px ;
+        font-variant: small-caps;
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    header .srednji {
+        background-color: /*#021427*/#b7c95e;
+        height: 400px;
+        text-align: center;
+        color: rgb(43, 43, 43);
+        padding-top: 100px;
+        font-weight: bold;
+        font-variant: small-caps;
+        letter-spacing: 4px;
+        font-size: 85px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    header .spodnji {
+        height: 130px;
+        background-color: #bacc5c;
+        text-align: center;
+        color: #ffffff;
+        padding-top: 30px;
+    }
+
+    /*--------------- NAVIGACIJA ----------------*/
+
+    header nav {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        background-color: #a3b646;
+        height: 200px;
+    }
+    header .drugi {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        background-color: #8d8d8d;
+        height: 200px;
+    }
+    
+    
+
+    header nav ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+
+    header nav li {
+        margin: 0 50px;
+        font-family: Noto Sans, sans-serif;
+        text-transform: uppercase;
+        background-color: rgb(62, 75, 88);
+        padding: 13px 15px 10px 15px;
+        border-radius: 10px;
+    }
+
+    header nav li .trenutni {
+        color: rgb(179, 255, 129);
+        font-size:  28px
+    }
+
+    header nav a{
+        text-decoration: none;
+        font-size: 26px;
+        font-weight: 700;
+        color: rgb(238, 238, 238);
+        transition: 0.25s;
+    }
+    header nav a:hover {
+        color: rgb(247, 247, 247);
+        font-size: 34px;
+        text-decoration: underline;
+        text-decoration: none;
+        color: rgb(179, 255, 129);
+    }
+    
+    .button {
+        display: flex;
+        justify-content: center;
+        background-color: #a3b646;
+    }
+    
+    .button button {
+        padding: 12px;
+        background-color: #5f6b29;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    
+    .button a:hover {
+        text-transform: lowercase;
+    }
+    
+
+
+
+/* --------------------- MAIN ----------------------*/
+
+    
+
+
+    main {
+        background-color: #e6e6e6;
+        padding: 21px;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    main p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding-top: 50px;
+        /*padding-left: 100px;
+        padding-right: 350px;*/
+        font-size: 22px;
+        line-height: 42px;
+
+        /*--- novo---*/
+        margin-right:25%;
+        margin-left: 25%;
+        /*---*/
+    }
+    
+
+    main p nagovor {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 53px;
+        font-variant: small-caps;  
+        font-size: 42px;  
+    }
+    main ul li{
+        font-size: 20px;
+        list-style-type: none;
+    }
+
+    /* -------- novo ---------*/
+    main .grid-lista {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Dva enaka stolpca */
+        padding-top: 30px;
+        max-width: 600px;
+        margin: auto;
+        font-size: larger;
+      }
+    
+    main .grid-lista li {
+        padding: 10px;
+        color: rgb(70, 70, 70);
+        text-align: left;
+        list-style-type: disc;
+    }
+
+    /*------- del novic --------*/
+    main .novice-container {
+        max-width: 900px;
+        margin: 50px auto;
+        padding: 20px;
+        background: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+
+    main .novica {
+        background: white;
+        padding: 40px;
+        margin: 40px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    main .novica h2 {
+        margin-bottom: 10px;
+    }
+
+    main .novica p {
+        color: #555;
+    }
+
+    main .novica small {
+        display: block;
+        margin-top: 10px;
+        color: #888;
+    }
+    main iframe {
+        margin-top: 50px;
+    }
+
+
+
+
+/*...novi...*/
+
+    footer {
+        background-color: #222;
+        color: white;
+        padding-top: 70px;
+        padding-bottom: 10px;
+    }
+    footer .container {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1700px;
+        margin: auto;
+    }
+    footer .column {
+        width: 30%;
+        padding-left: 40px;
+    }
+    footer h3 {
+        margin-bottom: 10px;
+    }
+    
+    footer .separator { /*črta pod stolpci*/
+        width: 90%;
+        height: 2px;
+        background-color: white;
+        margin: 10px auto 0; /*(auto 0)= levo in desno se ravna po sredini*/
+        margin-top: 40px;
+    }
+    footer .zaključek {
+        display: inline-table;
+        margin: 40px 100px;
+    }
+
+    footer .line {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    footer .left {
+        text-align: left;
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+    footer .right {
+        text-align: right;
+        margin-right: 110px;
+        margin-top: 20px;
+    }
+
+    footer .image-container {
+        display: flex;
+        justify-content: center; /* Centriranje slik */
+        align-items: center; /* Vertikalna poravnava */
+        gap: 20px; /* Razmik med slikami */
+        padding-top: 50px;
+        margin-bottom: 10px;
+        margin-left: 80px auto;
+        gap: 40px;
+      }
